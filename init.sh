@@ -109,6 +109,6 @@ echo 'alias pyth="python3.7"' >> /home/$USER/.bash_profile
 . /home/$USER/.bash_profile
 
 echo " Configure some vim stuff" #*********************************
-curl https://raw.githubusercontent.com/linuxacademy/content-intro-to-python-development/master/helpers/vimrc -o ~/.vimrc
+curl https://raw.githubusercontent.com/linuxacademy/content-intro-to-python-development/master/helpers/vimrc -o /home/$USER/.vimrc
 echo "All dunzo!  Please log out and log back in with the username: $USER"
 exit
